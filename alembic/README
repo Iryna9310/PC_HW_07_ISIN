@@ -1,0 +1,5 @@
+Generic single-database configuration.
+
+# docker run --name DB-Postgres -p 5432:5432 -e POSTGRES_PASSWORD=mypassword -d postgres
+# alembic revision --autogenerate -m 'Init'
+# alembic upgrade head
